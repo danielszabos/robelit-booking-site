@@ -2,12 +2,14 @@
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import interior1 from '../images/interior1.jpg';
+
 
 const projects = [
   {
     title: "Hallway",
     description: "Elevate the hallway with subtle textures and contrasting accents, turning a once-overlooked space into a visually engaging transition area.",
-    imageUrl: "https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/476361782_122107905494731407_2763061385905667480_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=wE0VY5t7lpQQ7kNvwGOiN82&_nc_oc=AdkCDVbqbBU2xewj_SnZLF2rTdxzvMvUJLN2XJ25j28afOAORsj876Gszdm7ziSFvak&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=dsguJDLdTAoK4yCcA0oraA&oh=00_AfPEM_-1rYzszE7PAN94C-dcE88WRVpHIgom6ucb_2x8Sw&oe=684E4E3E",
+    imageUrl: interior1,
     category: "Interior",
   },
   {
