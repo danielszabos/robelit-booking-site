@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
+import logo from '../images/logo.jpg';
 
 const About = () => {
   return (
@@ -38,12 +39,7 @@ const About = () => {
               </p>
             </div>
             <div>
-              {/* Replace this with an actual image if desired */}
-<img
-  src="https://scontent.fman4-2.fna.fbcdn.net/v/t39.30808-6/474517544_122105149682731407_1737403576960817671_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=q1dK_5g5GuwQ7kNvwFbu6Tc&_nc_oc=AdkkyLVizIiiDZ58M9WCo-WxURO2pZP7gj24YIrlJR23S40_lSN470s9pXdh8QiwO3w&_nc_zt=23&_nc_ht=scontent.fman4-2.fna&_nc_gid=RJfwacWTqf2OCDvmyz4ulg&oh=00_AfOBOAXOlZExWcA_dC288uJhgZ_7qE7MKD64q_IlxkXyzg&oe=684F79A0"
-  className="rounded-2xl"
-/>
-
+              <img src={logo} alt="Logo" className="rounded-2xl" />
             </div>
           </div>
         </section>
